@@ -1,0 +1,45 @@
+.container{
+    width: 950px;
+    height: 800px;
+    background-color: silver;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.first {
+    width: 930px;
+    height: 200px;
+    background-color: green;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.second {
+    width: 930px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+.third {
+    width: 930px;
+    height: 200px;
+    background-color: yellow;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 200px;
+}
